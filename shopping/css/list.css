@@ -1,0 +1,118 @@
+/* 列表页专用CSS */
+.nav {
+    overflow: hidden;
+}
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin-right: 12px;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #ed282e;
+} 
+.sk_bd ul li p {
+    display: inline-block;
+    width: 265px;
+    font-size: 14px;
+    margin-left: 12px;
+}
+.sk_bd ul li>span {
+    display: inline-block;
+    width: 55px;
+    height: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #e60012;
+    margin: 5px 10px;
+}
+.sk_bd ul li>span::before {
+    content: '\e914';
+    font-family: 'icomoon';
+    font-size: 12px;
+}
+.sk_bd ul li del::before {
+    content: '\e914';
+    font-family: 'icomoon';
+    font-size: 12px;
+}
+.sk_bd ul li .ys {
+    height: 30px;
+    padding: 0 14px;
+    line-height: 30px;
+}
+.sk_bd ul li .ys .tiao {
+    position: relative;
+    display: inline-block;
+    width: 132px;
+    height: 14px;
+    border: 1px solid #ed282e;
+    border-radius: 7px;
+    margin: -2px 5px;
+}
+.sk_bd ul li .ys .tiao_in {
+    position: absolute;
+    display: inline-block;
+    width: 87%;
+    height: 12px;
+    background-color: #ed282e;
+    border: 1px solid #ed282e;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.sk_bd ul li .ys span p {
+    display: inline;
+    color: #ed282e;
+    margin: 0;
+}
+.sk_bd ul li a {
+    display: block;
+    height: 50px;
+    background-color: #ed282e;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    margin-top: 16px;
+}

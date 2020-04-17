@@ -1,0 +1,256 @@
+/* 主体模块 main */
+.main {
+    margin-left: 220px;
+    margin-top: 10px;
+    width: 980px;
+    height: 455px;
+}
+.main .focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+.main .newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+.main .newsflash .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.main .newsflash .news .news_hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+.main .newsflash .news .news_hd h5 {
+    float: left;
+    font-size: 14px;
+}
+.main .newsflash .news .news_hd .more {
+    float: right;
+}
+.main .newsflash .news .news_hd .more::after {
+    content: '\e920';
+    font-family: 'icomoon';
+} 
+.main .newsflash .news .news_dd {
+    padding: 5px 15px 0;
+}
+.main .newsflash .news .news_dd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* 防止文字过多超出，省略 */
+}
+.main .newsflash .lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+.main .newsflash .lifeservice ul {
+    width: 252px;
+    /* 由于盒子装不下一行4个小盒子所以把ul加宽到可以装下 */
+}
+.main .newsflash .lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.main .newsflash .lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+}
+.xtb1 {
+    background: url(../images/icons.png) no-repeat -18px -14px;
+}
+.xtb2 {
+    background: url(../images/icons.png) no-repeat -80px -15px;
+}
+.xtb3 {
+    background: url(../images/icons.png) no-repeat -142px -15px;
+}
+.xtb4 {
+    background: url(../images/icons.png) no-repeat -206px -15px;
+}
+.xtb5 {
+    background: url(../images/icons.png) no-repeat -17px -84px;
+}
+.xtb6 {
+    background: url(../images/icons.png) no-repeat -80px -84px;
+}
+.xtb7 {
+    background: url(../images/icons.png) no-repeat -142px -84px;
+}
+.xtb8 {
+    background: url(../images/icons.png) no-repeat -207px -84px;
+}
+.xtb9 {
+    background: url(../images/icons.png) no-repeat -17px -158px;
+}
+.xtb10 {
+    background: url(../images/icons.png) no-repeat -79px -158px;
+}
+.xtb11 {
+    background: url(../images/icons.png) no-repeat -142px -154px;
+}
+.xtb12 {
+    background: url(../images/icons.png) no-repeat -207px -157px;
+}
+.main .newsflash .bargain {
+    margin-top: 5px;
+}
+/* 推荐模块 */
+.recom {
+    height: 163px;
+    background-color: #ebebeb;
+    margin-top: 12px;
+}
+.recom .recom_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+.recom .recom_bd {
+    float: left;
+}
+.recom .recom_bd ul li {
+    position: relative;
+    float: left;
+    margin: 0 1px;
+}
+.recom .recom_bd ul li img {
+    width: 245px;
+    height: 163px;
+    /* 保证图片在上传过程中不会改变大小 */
+}
+.recom .recom_bd ul li:nth-child(-n+3):after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+/* 楼层模块 */
+/* 导航块 */
+.floor .daohang {
+    position: fixed;
+    top: 190px;
+    left: 50%;
+    margin-left: -670px;
+}
+.floor .daohang ul li {
+    width: 66px;
+    height: 32px;
+    text-align: center;
+}
+.floor .daohang ul li a {
+    display: inline-block;
+    width: 56px;
+    height: 31px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 32px;
+}
+.floor .daohang ul li:hover {
+    background-color: #c81623;
+}
+.floor .daohang ul li a:hover {
+    border: none;
+    color: #fff;
+}
+/* 家用电器模块 */
+.floor .w {
+    margin-top: 25px;
+}
+.floor .jiadian .box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;  
+}
+.floor .jiadian .box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+.floor .jiadian .box_hd ul {
+    float: right;
+}
+.floor .jiadian .box_hd ul li {
+    float: left;
+}
+.floor .jiadian .box_hd ul li a {
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.floor .jiadian .box_hd ul li i {
+    margin: 0 -15px;
+}
+.floor .jiadian .box_hd ul li::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin-top: 4px;
+}
+.floor .jiadian .box_hd ul li:last-child::after {
+    width: 0;
+}
+.floor .jiadian .box_bd .tab_content {
+    height: 361px;
+}
+.floor .jiadian .box_bd .tab_content .tab_list_1>div {
+    float: left;
+    height: 361px;
+}
+.floor .jiadian .box_bd .tab_content .tab_list_1>div:nth-child(1) {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.tab_list_1>div:nth-child(1) ul {
+    padding-left: 14px;
+}
+.tab_list_1>div:nth-child(1) ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    margin-right: 12px;
+    text-align: center;
+    line-height: 34px;
+}
+.floor .jiadian .box_bd .tab_content .tab_list_1>div:nth-child(2) {
+    width: 329px;
+}
+.floor .jiadian .box_bd .tab_content .tab_list_1>div:nth-child(3) {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.floor .jiadian .box_bd .tab_content .tab_list_1>div:nth-child(4) {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.floor .jiadian .box_bd .tab_content .tab_list_1>div:nth-child(5) {
+    width: 219px;
+}
+.bb {
+    display: inline-block;
+    border-bottom: 1px solid #ccc;
+}
